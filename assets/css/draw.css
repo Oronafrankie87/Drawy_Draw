@@ -128,9 +128,21 @@ section{
   border-radius: 4px;
   cursor: pointer;
 }
+
+#undo-btn {
+  background: #4A98F7;
+  border: 1px solid #4A98F7;
+  transition: all 0.7s ease;
+}
+
+#undo-btn:hover {
+  color: #fff;
+  background:  #6C757D
+}
+
 .buttons .clear-canvas{
-  color: #6C757D;
-  border: 1px solid #6C757D;
+  background: #4A98F7;
+  border: 1px solid #4A98F7;
   transition: all 0.3s ease;
 }
 .clear-canvas:hover{
